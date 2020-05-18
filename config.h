@@ -87,7 +87,7 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
  static const char *colorname[] = {
 	 "#fcf3e9", /* base00 */
-	 "#4a5067", /* base08 */
+	 "#6F7795", /* base08 */
 	 "#547290", /* base0B */
 	 "#91777e", /* base0A */
 	 "#7c8c97", /* base0D */
@@ -113,6 +113,14 @@ unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
 static unsigned int defaultcs = 7;
 static unsigned int defaultrcs = 0;
+
+/*
+ * Colors used, when the specific fg == defaultfg. So in reverse mode this
+ * will reverse too. Another logic would only make the simple feature too
+ * complex.
+ */
+static unsigned int defaultitalic = 7;
+static unsigned int defaultunderline = 7;
 
 /*
  * Default shape of cursor
