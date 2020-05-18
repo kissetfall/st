@@ -100,7 +100,7 @@ unsigned int tabspaces = 8;
 	 "#5c6176", /* base02 */
 	 "#4a5067", /* base04 */
 	 "#545e61", /* base06 */
-	 "#536958", /* base0F */
+	 "#607A66", /* base0F */
 	 "#4a5067", /* base07 */
 }; 
 
