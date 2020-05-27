@@ -177,15 +177,15 @@ static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
 	{ MODKEY|ControlMask,   XK_equal,       zoom,           {.f = +1} },
 	{ MODKEY|ControlMask,   XK_minus,       zoom,           {.f = -1} },
-	{ MODKEY|ControlMask,   XK_0,  		    zoomreset,      {.f =  0} },
+	{ MODKEY|ControlMask,   XK_0,           zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
-	{ TERMMOD, 				XK_K, 			kscrollup, 		{.i =  1} },
-	{ TERMMOD, 				XK_J, 			kscrolldown, 	{.i =  1} },
-	{ TERMMOD, 				XK_U, 			kscrollup, 		{.i = -1} },
-	{ TERMMOD, 				XK_D, 			kscrolldown, 	{.i = -1} },
+	{ TERMMOD,              XK_K,           kscrollup,      {.i =  1} },
+	{ TERMMOD,              XK_J,           kscrolldown,    {.i =  1} },
+	{ TERMMOD,              XK_U,           kscrollup,      {.i = -1} },
+	{ TERMMOD,              XK_D,           kscrolldown,    {.i = -1} },
 };
 
 /*
